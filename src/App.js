@@ -1,14 +1,13 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import BasicExample from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
+import NavBar from './components/Navbar/NavBar';
+import ItemListContainer from './pages/ItemListContainer/ItemListContainer';
 
 
 function App() {
   return (
-    <div className="App">
-      <BasicExample />
-      <ItemListContainer/>
+    <div>
+      <NavBar/>
+      <ItemListContainer greeting='Bienvenidos a VJ Bebidas'/>
     </div>
   );
 }

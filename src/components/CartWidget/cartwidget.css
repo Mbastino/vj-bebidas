@@ -1,0 +1,9 @@
+.botonCarro{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.cantCarrito{
+    font-size: 25px;
+    padding-left: 5px;
+}

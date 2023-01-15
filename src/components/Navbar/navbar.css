@@ -1,0 +1,14 @@
+
+
+.NavbarContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.category{
+    display: flex;
+    list-style: none;
+}
+.category li{
+    padding: 0px 5px;
+}

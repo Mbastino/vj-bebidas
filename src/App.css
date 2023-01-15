@@ -8,11 +8,8 @@
     flex-direction: column;
 }
 
-.navbar{
-    width: 100%;
-}
 .title{
     width: 100%;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
