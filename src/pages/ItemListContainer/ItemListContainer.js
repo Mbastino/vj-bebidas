@@ -1,11 +1,13 @@
 import './itemlistcontainer.css'
+import { useEffect, useState } from 'react'
+import { requestAllProducts } from '../../helpers/dataProduct'
 import ItemCount from '../../components/ItemCount/ItemCount'
 
-const ItemListContainer = ({greeting}) => {
+const ItemListContainer = () => {
+  
   return (
     <div>
-      {greeting}
-      <ItemCount/>
+        <ItemCount/>
     </div>
     
   )

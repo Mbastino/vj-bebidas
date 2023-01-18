@@ -1,0 +1,14 @@
+.Items{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.productsImg{
+    border-radius: 10px;
+    display: block;
+}

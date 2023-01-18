@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "marca": "Andes",
+        "estilo":"Rubia",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 200,
+        "image": "/images/andesrubia.jpg",
+        "category": "Cervezas",
+        "stock": 100
+    },
+    {
+        "id": 2,
+        "marca": "Andes",
+        "estilo":"Negra",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 250,
+        "image": "/images/andesnegra.jpg",
+        "category": "Cervezas",
+        "stock": 100
+    },
+    {
+        "id": 3,
+        "marca": "Andes",
+        "estilo":"Roja",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 250,
+        "image": "/images/andesroja.jpg",
+        "category": "Cervezas",
+        "stock": 100
+    },
+    {
+        "id": 4,
+        "marca": "Andes",
+        "estilo":"IPA",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 300,
+        "image": "/images/andesipa.jpg",
+        "category": "Cervezas",
+        "stock": 100
+    },
+    {
+        "id": 5,
+        "marca": "Imperial",
+        "estilo":"Larger",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 200,
+        "image": "/images/imperiallarger.jpg",
+        "category": "Cervezas",
+        "stock": 100
+    },
+    {
+        "id": 6,
+        "marca": "Imperial",
+        "estilo":"Golden",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 200,
+        "image": "/images/imperialgolden.jpg",
+        "category": "Cervezas",
+        "stock": 100
+    },
+    {
+        "id": 7,
+        "marca": "Imperial",
+        "estilo":"Roja",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 250,
+        "image": "/images/imperialroja.jpg",
+        "category": "Cervezas",
+        "stock": 100
+    },
+    {
+        "id": 8,
+        "marca": "Imperial",
+        "estilo":"IPA",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 300,
+        "image": "/images/imperialipa.jpg",
+        "category": "Cervezas",
+        "stock": 100
+    },
+    {
+        "id": 9,
+        "marca": "Imperial",
+        "estilo":"APA",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 300,
+        "image": "/images/imperialapa.jpg",
+        "category": "Cervezas",
+        "stock": 100
+    },
+    {
+        "id": 10,
+        "marca": "Colon",
+        "varietal":"Malbec",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 700,
+        "image": "/images/colonmalbec.jpg",
+        "category": "Vinos",
+        "stock": 100
+    },
+    {
+        "id": 11,
+        "marca": "Colon",
+        "varietal":"Syrah",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 750,
+        "image": "/images/colonsyrah.jpg",
+        "category": "Vinos",
+        "stock": 100
+    },
+    {
+        "id": 12,
+        "marca": "Colon",
+        "varietal":"Cabernet Sauvignon",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 850,
+        "image": "/images/coloncabernets.jpg",
+        "category": "Vinos",
+        "stock": 100
+    },
+    {
+        "id": 13,
+        "marca": "Graffigna",
+        "varietal":"Malbec",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 1000,
+        "image": "/images/grafmalbec.jpg",
+        "category": "Vinos",
+        "stock": 100
+    },
+    {
+        "id": 14,
+        "marca": "Graffigna",
+        "varietal":"Syrah",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 1300,
+        "image": "/images/grafsyrah.jpg",
+        "category": "Vinos",
+        "stock": 100
+    },
+    {
+        "id": 15,
+        "marca": "Graffigna",
+        "varietal":"Cabernet Sauvignon",
+        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "price": 1500,
+        "image": "/images/grafcabernets.jpg",
+        "category": "Vinos",
+        "stock": 100
+    }
+
+]
