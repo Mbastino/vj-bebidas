@@ -1,6 +1,7 @@
 import './itemlistcontainer.css'
 import { useEffect, useState } from 'react'
 import ItemCount from '../../components/ItemCount/ItemCount'
+import ItemList from '../../components/ItemList/ItemList'
 
 const arreglo=[
   {
@@ -70,11 +71,7 @@ useEffect(() =>{
 
     return (
     <div>
-        <ul>
-          {productos.map((producto)=>(
-            <li key={producto.id}>{producto.name}</li>
-          )) }
-        </ul>
+        <ItemList/>
         <ItemCount/>
     </div>
     

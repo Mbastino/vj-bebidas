@@ -1,13 +1,13 @@
 
 import './items.css'
 
-const Items = (id, marca, estilo, price, image ) => {
+const Items = (producto) => {
   return (
    <div className='Items'>
-      <img className='productsImg' src={image} alt=''></img>
-      <h2 className='productsName'>{marca + estilo}</h2>
+      <img className='productsImg' src={producto.image} alt=''></img>
+      <h2 className='productsName'>{producto.name}</h2>
       <div className='productsDetail'>
-        <p className='productPrice'>{price}</p>
+        <p className='productPrice'></p>
       </div>
       <button>Detalle</button>
    </div>
