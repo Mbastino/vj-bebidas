@@ -5,11 +5,11 @@ import CartWidget from '../CartWidget/CartWidget';
 
 const NavBar = () => {
   return (
-    <div class='NavbarContainer'>
-      <div class='logo'>
+    <div className='NavbarContainer'>
+      <div className='logo'>
         <img src='./images/logo.jpg' alt='logo'></img>
       </div>
-      <ul class='category'>
+      <ul className='category'>
         <li>Inicio</li>
         <li>Cervezas</li>
         <li>Vinos</li>

@@ -19,7 +19,7 @@ const ItemCount = () => {
     }
     return (
     <div>
-        <div class='counter'>   
+        <div className='counter'>   
             <button onClick={restar}>-</button>
             <div>
                 <span>{contador}</span>
