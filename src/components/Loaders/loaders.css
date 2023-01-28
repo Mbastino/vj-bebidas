@@ -1,0 +1,202 @@
+.containerLoader{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerLoader h2{
+  position: absolute;
+  font-size: 1rem;
+}
+.loader{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: url(#gooey);
+}
+.loader span{
+  position: absolute;
+  left: 17%;
+  width: 0px;
+  height: 0px;
+  transform-origin: 100px;
+  background: #000000;
+  border-radius: 50%;
+  animation: animate 3s ease-in-out infinite;
+}
+.loader span:nth-child(2){
+  animation: animate1 3s 0.15s ease-in-out infinite;
+}
+
+.loader span:nth-child(3){
+  animation: animate2 3s 0.3s ease-in-out infinite;
+}
+.loader span:nth-child(4){
+  animation: animate3 3s 0.45s ease-in-out infinite;
+}
+.loader span:nth-child(5){
+  animation: animate4 3s 0.60s ease-in-out infinite;
+}
+.loader span:nth-child(6){
+  animation: animate5 3s 0.75s ease-in-out infinite;
+}
+.loader span:nth-child(7){
+  animation: animate6 3s 0.90s ease-in-out infinite;
+}
+.loader span:nth-child(8){
+  animation: animate7 3s 1.05s ease-in-out infinite;
+}
+svg{
+  width: 0;
+  height: 0;
+}
+  
+@keyframes animate{
+  0%, 10%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+  40%, 70%{
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 10px #000000;
+  }
+  90%, 100%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+}
+@keyframes animate1{
+  0%, 10%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+  40%, 70%{
+    width: 40px;
+    height: 40px;
+    transform: rotate(90deg) ;
+    box-shadow: 0px 0px 10px #000000;
+  }
+  90%, 100%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+}
+@keyframes animate2{
+  0%, 10%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+  40%, 70%{
+    width: 40px;
+    height: 40px;
+    transform: rotate(135deg) ;
+    box-shadow: 0px 0px 10px #000000;
+  }
+  90%, 100%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+}
+@keyframes animate3{
+  0%, 10%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+  40%, 70%{
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+    box-shadow: 0px 0px 10px #000000;
+  }
+  90%, 100%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+}
+@keyframes animate4{
+  0%, 10%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+  40%, 70%{
+    width: 40px;
+    height: 40px;
+    transform: rotate(225deg) ;
+    box-shadow: 0px 0px 10px #000000;
+  }
+  90%, 100%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+}
+@keyframes animate5{
+  0%, 10%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+  40%, 70%{
+    width: 40px;
+    height: 40px;
+    transform: rotate(270deg) ;
+    box-shadow: 0px 0px 10px #000000;
+  }
+  90%, 100%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+}
+
+@keyframes animate6{
+  0%, 10%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+  40%, 70%{
+    width: 40px;
+    height: 40px;
+    transform: rotate(315deg) ;
+    box-shadow: 0px 0px 10px #000000;
+  }
+  90%, 100%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+}
+
+@keyframes animate7{
+  0%, 10%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+  40%, 70%{
+    width: 40px;
+    height: 40px;
+    transform: rotate(360deg) ;
+    box-shadow: 0px 0px 10px #000000;
+  }
+  90%, 100%{
+    width: 0px;
+    height: 0px;
+    transform: rotate(0deg) translateX(120px) ;
+  }
+}

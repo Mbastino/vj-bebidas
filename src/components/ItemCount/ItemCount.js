@@ -18,7 +18,7 @@ const ItemCount = () => {
         setContador(contador - 1)
     }
     return (
-    <div>
+    <div className='countContainer'>
         <div className='counter'>   
             <button onClick={restar}>-</button>
             <div>

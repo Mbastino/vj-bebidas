@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Andes Rubia",
-        "description": "",
+        "description": "La Andes Origen Rubia es una cerveza para disfrutar, de sabor maltoso, amargo medio, con notas de cereal y levadura.",
         "price": 200,
         "image": "/images/andesrubia.jpg",
         "category": "Cervezas",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "name": "Andes Negra",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "La Andes Origen Negra es un gustito de cuerpo intenso y color negro profundo.",
         "price": 250,
         "image": "/images/andesnegra.jpg",
         "category": "Cervezas",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "name": "Andes Roja",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "La Andes Roja está hecha con tres maltas, entre ellas la malta Caramelo que además de darle un aroma suave y sabor balanceado, la visten de un color ámbar cobrizo.",
         "price": 250,
         "image": "/images/andesroja.jpg",
         "category": "Cervezas",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "Andes IPA",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "La Andes Origen IPA Andina es un gustito de amargo intenso con un leve dulzor para equilibrar, notas a cereal, levadura y un toque ácido al final.",
         "price": 300,
         "image": "/images/andesipa.jpg",
         "category": "Cervezas",
@@ -38,16 +38,16 @@
     {
         "id": 5,
         "name": "Imperial Larger",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "Imperial Lager, cerveza extra con ingredientes 100% naturales. Cerveza dorada, con espuma blanca de buena retención.",
         "price": 200,
-        "image": "/images/imperiallarger.jpg",
+        "image": "/images/imperiallager.jpg",
         "category": "Cervezas",
         "stock": 100
     },
     {
         "id": 6,
         "name": "Imperial Golden",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "Imperial Golden, cerveza de color pajizo a dorado pálido. Suave y de cuerpo ligero, refrescante y saciadora de la sed, con muy buena tomabilidad.",
         "price": 200,
         "image": "/images/imperialgolden.jpg",
         "category": "Cervezas",
@@ -56,7 +56,7 @@
     {
         "id": 7,
         "name": "Imperial Roja",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "Imperial Roja, cerveza de color cobrizo claro brillante, con espuma clara y de buena persistencia.",
         "price": 250,
         "image": "/images/imperialroja.jpg",
         "category": "Cervezas",
@@ -65,7 +65,7 @@
     {
         "id": 8,
         "name": "Imperial IPA",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "Imperial IPA, cerveza de color cobrizo, con aroma a frutas cítricas, como a mandarina y pomelo, y un dejo sutil herbal.",
         "price": 300,
         "image": "/images/imperialipa.jpg",
         "category": "Cervezas",
@@ -74,7 +74,7 @@
     {
         "id": 9,
         "name": "Imperial APA",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "Imperial APA, cerveza de color dorado intenso con destellos cobrizos.",
         "price": 300,
         "image": "/images/imperialapa.jpg",
         "category": "Cervezas",
@@ -83,7 +83,7 @@
     {
         "id": 10,
         "name": "Colon Malbec",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "Seductor color ciruela, nariz rebosante de fruta: ciruelas, guindas y uvas pasas. Levemente especiado con delicadas notas de chocolate y café aportadas por la madera",
         "price": 700,
         "image": "/images/colonmalbec.jpg",
         "category": "Vinos",
@@ -92,7 +92,7 @@
     {
         "id": 11,
         "name": "Colon Syrah",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "Color rojo brillante, en nariz se manifiesta las notas de fruta madura y las especies. En boca, destaca el dulzor en la entrada y el equilibrio.",
         "price": 750,
         "image": "/images/colonsyrah.jpg",
         "category": "Vinos",
@@ -101,7 +101,7 @@
     {
         "id": 12,
         "name": "Colon Cabernet Sauvignon",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "De color rojo profundo con reflejos rubí. Rico y fino abanico de frutos oscuros como el cassis y sutiles notas a pimienta y clavo de olor.",
         "price": 850,
         "image": "/images/coloncabernets.jpg",
         "category": "Vinos",
@@ -110,7 +110,7 @@
     {
         "id": 13,
         "name": "Graffigna Malbec",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "De atractivo color rojo violáceo, con aromas de frutos frescos en perfecta armonía con la delicadeza de las violetas y las notas de crianza en roble.",
         "price": 1000,
         "image": "/images/grafmalbec.jpg",
         "category": "Vinos",
@@ -119,7 +119,7 @@
     {
         "id": 14,
         "name": "Graffigna Syrah",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "",
         "price": 1300,
         "image": "/images/grafsyrah.jpg",
         "category": "Vinos",
@@ -128,7 +128,7 @@
     {
         "id": 15,
         "marca": "Graffigna Cabernet Sauvignon",
-        "description": "Aprende los fundamentos del desarrollo web desde cero y paso a paso.",
+        "description": "De color rojo con matices violáceos. El Aroma es fino, que resalta la expresión frutal y especiado característica de este varietal.",
         "price": 1500,
         "image": "/images/grafcabernets.jpg",
         "category": "Vinos",

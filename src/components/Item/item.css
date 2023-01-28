@@ -1,14 +1,13 @@
-.Items{
+.itemContainer{
+    width: 100%;
+    background-color: #a25492;
     display: flex;
     flex-direction: column;
-    background-color: white;
-    width: 30%;
-    padding: 20px;
-    border-radius: 10px;
+    align-items: center;
     justify-content: center;
+    padding: 5px;
+    border: 1px solid black;
 }
-
-.productsImg{
+.imgProduct{
     border-radius: 10px;
-    display: block;
 }
