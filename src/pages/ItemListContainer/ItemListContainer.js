@@ -1,17 +1,18 @@
 import './itemlistcontainer.css'
 import Products from '../../data/Products.json'
-import { useState } from 'react'
+import { useState, } from 'react'
 import ItemList from '../../components/ItemList/ItemList'
-import Loader from '../../components/Loaders/Loaders'
+import Loader from '../../components/Loaders/Loaders.js'
 
 const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
   const [hasProduct, setHasProduct] = useState(false);
 
+
   const listproduct = new Promise((resolve) =>
     setTimeout(() => {
       resolve(Products);
-    }, 2000)
+    }, 3500)
   );
 
   listproduct
@@ -23,7 +24,7 @@ const ItemListContainer = () => {
       {!hasProduct ? (
         <Loader />
       ) : (
-        <div>
+        <div className='listContainer'>
           <ItemList productos={products} />
         </div>
       )}

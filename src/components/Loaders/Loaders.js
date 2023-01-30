@@ -1,3 +1,4 @@
+import "./loaders.css"
 const Loader = () => {
     return (
       <div className="containerLoader">

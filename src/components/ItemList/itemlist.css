@@ -1,0 +1,10 @@
+.itemCont{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat((auto-fit, minmax(100%, 300px), 1fr));
+    grid-auto-rows: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    justify-items: center;
+}
