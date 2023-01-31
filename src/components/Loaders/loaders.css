@@ -49,7 +49,7 @@
 .loader span:nth-child(8){
   animation: animate7 3s 1.05s ease-in-out infinite;
 }
-svg{
+.svgLoader{
   width: 0;
   height: 0;
 }

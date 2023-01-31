@@ -13,7 +13,7 @@ const Loader = () => {
           <span></span>
           <span></span>
         </div>
-        <svg >
+        <svg className="svgLoader" >
           <filter id="gooey">
             <feGaussianBlur in="SourceGraphic" stdDeviation={10} />
             <feColorMatrix
