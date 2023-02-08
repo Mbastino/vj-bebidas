@@ -5,7 +5,12 @@ const Cart = () => {
   return (
     <div>
         {cart.map((product) => (
-            <h1 key={product.id}>{product.name}</h1>
+            <div>
+            <h4 key={product.id}>{product.name}</h4>
+            <img className="" alt={product.name} src={product.image}/>
+            <h3>{product.quantity}</h3>
+            <h4>${product.price}</h4>
+            </div>
         ))}
     </div>
   )
