@@ -20,11 +20,11 @@ const ItemCount = ({contador, actualizarValor, stock}) => {
     return (
     <div className='countContainer'>
         <div className='counter'>   
-            <button onClick={restar}>-</button>
+            <button className='buttonCount' onClick={restar}>-</button>
             <div>
                 <span>{contador}</span>
             </div>
-            <button onClick={onAdd}>+</button>
+            <button className='buttonCount' onClick={onAdd}>+</button>
         </div>
     </div>
   )
