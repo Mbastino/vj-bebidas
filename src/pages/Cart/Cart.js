@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { cartContext } from "../../context/cartContext";
 import { collection, addDoc, getFirestore, doc, updateDoc } from "firebase/firestore";
-
+import './cart.css'
 
 const Cart = () => {
     const {cart, removeItem, clear} = useContext(cartContext);
@@ -57,22 +57,22 @@ const Cart = () => {
       <ul>
         {cart.map((product) => (
           <li key={product.id}>
-            <div>
-              <img alt={product.name} src={`/image/${product.image}`}/>
+            <div className="cartContainer">
+              <img alt={product.name} src={`/images/${product.image}`}/>
               <h4>{product.name}</h4>          
-              <h3>{product.quantity}</h3>
+              <h3>{product.quantity}</h3> 
               <h4>${product.price}</h4>
-              <button onClick={()=>removeItem(product.id)}>Eliminar</button>
+              <button className='bEliminar' onClick={()=>removeItem(product.id)}>Eliminar</button>
             </div>
           </li>
             
         ))}
       </ul>
       <div>
-        <button onClick={()=>clear()}>Vaciar carrito</button>
+        <button  className='bVaciar' onClick={()=>clear()}>Vaciar carrito</button>
       </div>
       <div>
-        <button onClick={createOrder}>Crear orden</button>
+        <button  className='bCrear' onClick={createOrder}>Crear orden</button>
       </div>
     </div>
   )

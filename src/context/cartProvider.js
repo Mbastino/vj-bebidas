@@ -22,7 +22,7 @@ const CartProvider = ({children}) => {
             quantity: quantity,
             description: item.description,
             category: item.categoryId,
-            img:item.imageId
+            img:item.imageId,
             };
             newCart = [...cart, product];
         }

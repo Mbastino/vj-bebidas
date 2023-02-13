@@ -1,0 +1,18 @@
+.cartContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+}
+.bEliminar{
+    background-color: pink;
+}
+.bCrear{
+    background-color: pink;
+    margin: 20px;
+}
+.bVaciar{
+    background-color: pink;
+    margin: 20px;
+
+}
