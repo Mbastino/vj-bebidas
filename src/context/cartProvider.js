@@ -16,10 +16,11 @@ const CartProvider = ({children}) => {
             newCart = [...cart];
         } else {
             product = {
-                id: item.id,
+            id: item.id,
             name: item.name,
             price: item.price,
             quantity: quantity,
+            description: item.description,
             category: item.categoryId,
             img:item.imageId
             };

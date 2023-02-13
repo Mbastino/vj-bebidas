@@ -13,7 +13,7 @@ const ItemListContainer = () => {
   const listproduct = () =>{
     const db = getFirestore();
     const querySnapshot = collection(db, "products")
-setTimeout(() => {
+
 
   if(category){
     const newConfiguration = query(querySnapshot, where("categoryId","==", category));
@@ -33,7 +33,7 @@ setTimeout(() => {
       setProducts(data)
     }).catch(error=>console.log(error))
   }
-  }, 3500)
+  
 }
 
 useEffect(() => {
