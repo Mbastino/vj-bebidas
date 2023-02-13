@@ -43,12 +43,7 @@ const Cart = () => {
       const querySnapshot = doc(db, 'products', product.id);
 
       updateDoc(querySnapshot, {
-        categoryId: product.category,
-        description: product.description,
-        imageId: product.image,
-        price: product.price,
         stock: product.stock - product.quantity,
-        name: product.name,
       })
       .then(() => {
 
