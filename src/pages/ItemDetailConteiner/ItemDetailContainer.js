@@ -1,34 +1,34 @@
-import { useState } from "react"; 
+import { useEffect, useState } from "react"; 
 import ItemDetail from '../../components/ItemDetail/ItemDetail';
 import {useParams} from 'react-router-dom';
-import Products from '../../data/Products.json'
-import Loader from"../../components/Loaders/Loaders.js"
+import { getFirestore, doc, getDoc} from 'firebase/firestore';
 
 
 const ItemDetailContainer = () => {
   const [singleProduct, setSingleProduct] = useState([])
-  const [hasProduct, setHasProduct] = useState(false);
   const {id} = useParams()
 
-  const listproduct = new Promise((resolve) =>
-    setTimeout(() => {
-      resolve(Products);
-    }, 3500)
-  );
+  const listproduct = () => {
+    const db = getFirestore();
+    const querySnapshot = doc(db, 'items', id);
 
-  listproduct
-    .then((data) => setSingleProduct(data.find(prod => prod.id === parseInt(id))))
-    .then((data) => setHasProduct(!data))
+    getDoc(querySnapshot)
+    .then((response) => {
+      console.log(response.data())
+     /*  setSingleProduct({id: response.id, ...response.data() }) */
+    })
+    .cath((error)=>console.log(error))
+  }
+
+  useEffect(() => {
+    listproduct();
+  }, []);
 
   return (
     <>
-      {!hasProduct ? (
-        <Loader />
-      ) : (
       <div>
         <ItemDetail product={singleProduct}/>
       </div>
-      )}
     </>
   )
 }
