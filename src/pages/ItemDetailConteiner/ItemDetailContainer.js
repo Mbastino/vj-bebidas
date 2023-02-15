@@ -14,10 +14,12 @@ const ItemDetailContainer = () => {
 
     getDoc(querySnapshot)
     .then((response) => {
-      console.log(response.data())
-     /*  setSingleProduct({id: response.id, ...response.data() }) */
-    })
-    .cath((error)=>console.log(error))
+      console.log(id)
+      console.log(response.data)
+     
+/*      setSingleProduct({id: response.id,...response.data })
+ */    })
+    .cath((error)=> console.log(error))
   }
 
   useEffect(() => {
@@ -25,11 +27,9 @@ const ItemDetailContainer = () => {
   }, []);
 
   return (
-    <>
       <div>
         <ItemDetail product={singleProduct}/>
       </div>
-    </>
   )
 }
 
