@@ -10,18 +10,15 @@ const ItemListContainer = () => {
   const [hasProduct, setHasProduct] = useState(true);
   const {category} = useParams()
 
-  const listproduct = () =>{
-    const db = getFirestore();
-    const querySnapshot = collection(db, "products")
-
-
+useEffect(() => {
+  const db = getFirestore();
+  const querySnapshot = collection(db, "products")
   if(category){
     const newConfiguration = query(querySnapshot, where("categoryId","==", category));
     getDocs(newConfiguration).then((response) => {
       const data = response.docs.map((doc) => {
         return {id:doc.id, ...doc.data()}
       });
-      console.log(data)
       setHasProduct(false)
       setProducts(data)
     }).catch(error=>console.log(error))
@@ -34,11 +31,6 @@ const ItemListContainer = () => {
       setProducts(data)
     }).catch(error=>console.log(error))
   }
-  
-}
-
-useEffect(() => {
-  listproduct();
 }, [category]);
 
  
